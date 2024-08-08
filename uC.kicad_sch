@@ -1507,6 +1507,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 35.56) (xy 93.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e26680-d332-4b2e-992b-1858ddf3a1d3")
+	)
+	(wire
+		(pts
 			(xy 81.28 35.56) (xy 81.28 36.83)
 		)
 		(stroke
@@ -1637,6 +1647,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 35.56) (xy 105.41 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8d0b27-f1fa-4374-b801-a51f40112195")
+	)
+	(wire
+		(pts
 			(xy 90.17 33.02) (xy 90.17 35.56)
 		)
 		(stroke
@@ -1694,6 +1714,16 @@
 			(type default)
 		)
 		(uuid "c568d662-439a-41a6-88ca-32cad4998b3a")
+	)
+	(wire
+		(pts
+			(xy 105.41 35.56) (xy 105.41 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0741151-3443-458b-a7d1-1a42bca74d5a")
 	)
 	(wire
 		(pts
@@ -1900,6 +1930,139 @@
 			(justify right)
 		)
 		(uuid "af6f85a8-997b-4fc1-8404-21fd909c1f4b")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "236f9b66-4d2f-48bc-af76-cc2617dc9131")
+		(property "Reference" "C10"
+			(at 97.79 31.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 97.79 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 101.6 34.5948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4daba67c-a669-4dde-8245-867ca00e5312")
+		)
+		(pin "1"
+			(uuid "8c55948d-2c90-4c27-9d87-b793f8968558")
+		)
+		(instances
+			(project ""
+				(path "/6e9b0ecb-5ff8-4cea-bb01-e8c92e636c95/47922e9f-8839-4dfe-b2ac-5d132f76ea44"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 105.41 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2835ab9a-eba6-4313-a9e5-2524596e2ed9")
+		(property "Reference" "#PWR025"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 105.283 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 105.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e835c5f7-dea9-4b2c-8f00-df768a10e4a6")
+		)
+		(instances
+			(project ""
+				(path "/6e9b0ecb-5ff8-4cea-bb01-e8c92e636c95/47922e9f-8839-4dfe-b2ac-5d132f76ea44"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
