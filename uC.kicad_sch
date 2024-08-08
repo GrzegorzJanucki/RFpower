@@ -2183,7 +2183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d7a62a3-39a5-46cf-b922-15af21268bac")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 86.36 32.258 90)
 			(effects
 				(font
@@ -2235,7 +2235,7 @@
 		(instances
 			(project ""
 				(path "/6e9b0ecb-5ff8-4cea-bb01-e8c92e636c95/47922e9f-8839-4dfe-b2ac-5d132f76ea44"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
