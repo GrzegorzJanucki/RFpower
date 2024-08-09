@@ -1439,6 +1439,12 @@
 		(color 0 0 0 0)
 		(uuid "e18cba88-dd0c-4f38-96a9-ceb33e5c6ee6")
 	)
+	(junction
+		(at 62.23 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8564796-d611-4805-9fd8-25fd493d323f")
+	)
 	(no_connect
 		(at 125.73 58.42)
 		(uuid "1a5c67f8-f550-47cf-9715-5a7475b4cc12")
@@ -1577,7 +1583,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 62.23) (xy 66.04 62.23)
+			(xy 53.34 62.23) (xy 62.23 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1624,6 +1630,16 @@
 			(type default)
 		)
 		(uuid "8945a6e0-4cae-41c0-ab3e-6fc08e12c3a0")
+	)
+	(wire
+		(pts
+			(xy 62.23 62.23) (xy 62.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00a6c9d-7a33-4506-ba3b-c1869e5bb5cb")
 	)
 	(wire
 		(pts
@@ -1694,6 +1710,16 @@
 			(type default)
 		)
 		(uuid "c568d662-439a-41a6-88ca-32cad4998b3a")
+	)
+	(wire
+		(pts
+			(xy 62.23 62.23) (xy 66.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70d3594-d24c-4ec9-909e-b2102264c876")
 	)
 	(wire
 		(pts
@@ -2500,6 +2526,72 @@
 			(project "projekt"
 				(path "/6e9b0ecb-5ff8-4cea-bb01-e8c92e636c95/47922e9f-8839-4dfe-b2ac-5d132f76ea44"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 62.23 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd81e85d-678e-4cff-bba5-60892b8430d2")
+		(property "Reference" "#PWR026"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 62.103 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 62.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45617698-f371-44c2-9f9f-48a8a8ac76e8")
+		)
+		(instances
+			(project ""
+				(path "/6e9b0ecb-5ff8-4cea-bb01-e8c92e636c95/47922e9f-8839-4dfe-b2ac-5d132f76ea44"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
