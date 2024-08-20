@@ -668,27 +668,27 @@
 				)
 			)
 		)
-		(symbol "RP2040-zero_1"
+		(symbol "RP2040-zero:RP2040-zero"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "RP2040-zero1"
-				(at 0 28.194 0)
+			(property "Reference" "RP2040_0"
+				(at 0 27.686 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "~"
-				(at 0 27.94 0)
+			(property "Value" ""
+				(at -5.08 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "RP2040-zero:RP2040_0"
+			(property "Footprint" ""
 				(at -5.08 -10.16 0)
 				(effects
 					(font
@@ -715,7 +715,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RP2040-zero_1_1_1"
+			(symbol "RP2040-zero_1_1"
 				(polyline
 					(pts
 						(xy -12.7 26.67) (xy 12.7 26.67) (xy 12.7 -1.27) (xy -12.7 -1.27) (xy -12.7 26.67)
@@ -1016,10 +1016,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -15.24 20.32 0)
 					(length 2.54)
-					(name "3V3"
+					(name "3v3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2335,7 +2335,6 @@
 		)
 	)
 	(symbol
-		(lib_name "RP2040-zero_1")
 		(lib_id "RP2040-zero:RP2040-zero")
 		(at 110.49 71.12 0)
 		(unit 1)
